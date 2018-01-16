@@ -1,11 +1,34 @@
-<% fname = first_name
+<% 
 
-last_name = name_match(fname)
+last_name = name_match(first_name)
+
+if last_name == nil
+	last_name = "NO KNOWN MATCH! <br> <br>CHECK YOUR SPELLING AND TRY AGAIN"
+end	
+
+attribute = name_description(first_name)
+
+location = picture(first_name)
 
 %>
 
-<%= first_name %>
+First Name:  <%= first_name.capitalize  %>
+
+<br>
+Last Name:  <%= last_name.capitalize %>
 
 <br>
 
-<%= last_name %>
+<%= attribute %>
+
+
+<br><br>
+<img src = <%= location %> alt="Mountains View" style="width: 20%;">
+<br><br>
+
+<body>
+
+<p><a href="http://localhost:4567/">Try another name!</a></p>
+
+</body>
+

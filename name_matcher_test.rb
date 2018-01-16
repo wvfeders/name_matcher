@@ -11,6 +11,18 @@ class TestNames < Minitest::Test  #The word Math is the name of your project
 		assert_equal("fedders",name_match("jim"))
 	end
 
+		def test_that_name_matches_last
+		assert_equal("hoover",name_match("tricia"))
+	end
+
+		def test_that_description_matches
+		assert_equal("an OK coder",name_description("jim"))
+	end
+
+		def test_that_name_description_matches
+		assert_equal("great teacher",name_description("tricia"))
+	end
+
 
 
 

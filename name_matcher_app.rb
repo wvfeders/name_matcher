@@ -7,6 +7,7 @@ end
 	
 post '/first_name_out' do
 	first_name = params[:first_name]
+	first_name = first_name.downcase
 	
 	redirect 'find_last_name?first_name=' + first_name
 end	
