@@ -12,23 +12,20 @@ location = picture(first_name)
 
 %>
 
-First Name:  <%= first_name.capitalize  %>
+<h2>First Name:  <%= first_name.capitalize  %>
 
 <br>
 Last Name:  <%= last_name.capitalize %>
 
+</h2>
+
 <br>
-
-<%= attribute %>
-
-
-<br><br>
-<img src = <%= location %> alt="Mountains View" style="width: 20%;">
-<br><br>
+<img src = <%= location %>  style="width: 20%;" align="middle";>
+<h1> <%= attribute %> </h1>
 
 <body>
 
-<p><a href="http://localhost:4567/">Try another name!</a></p>
+<p><a href="http://localhost:4567/">Click to try another name</a></p>
 
 </body>
 
