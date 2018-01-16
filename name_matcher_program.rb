@@ -5,7 +5,7 @@ def name_match(fname)
 end	
 
 def name_description(fname)
-	description = {"jim" => "the confused coder", "doug" => "coder extraordinaire", "christi"=> "web-designer par excellence", "chris" => "aka the code guru", "tyler" => "aka the game crasher", "tricia" => "the instructor superb"}
+	description = {"jim" => "/the confused coder/", "doug" => "/coder extraordinaire/", "christi"=> "/web-designer par excellence/", "chris" => "/aka the code guru/", "tyler" => "/aka the game crasher/", "tricia" => "/the instructor superb/"}
 	description[fname]
 end	
 
