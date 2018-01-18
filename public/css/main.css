@@ -17,11 +17,11 @@ p {
   	font-size: 18px;
 }
 
-/*img {
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}*/
+}
 
 footer {
   	border-top: solid;
@@ -47,7 +47,7 @@ footer {
 	text-align: center;*/
 }
 
-.left {
+/*.left {
 	  position: absolute;
     left: 20px;
     top: 20px;
@@ -58,4 +58,4 @@ footer {
 	  position: absolute;
     left: 2000px;
     top: 20px;
-	}
+	}*/

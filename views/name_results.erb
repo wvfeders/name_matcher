@@ -4,12 +4,14 @@ last_name = name_match(first_name)
 
 if last_name == nil
 	last_name = "NO KNOWN MATCH! <br> <br>CHECK YOUR SPELLING AND TRY AGAIN"
-end	
+	location = "images//question_mark.png"
+	attribute = "/??????????/"
+	
+elsif
+	attribute = name_description(first_name)
 
-attribute = name_description(first_name)
-
-location = picture(first_name)
-
+	location = picture(first_name)
+end
 %>
 
 <h1>First Name:  <%= first_name.capitalize  %> 
@@ -28,7 +30,3 @@ Last Name:  <%= last_name.capitalize %>
 <p><a href="http://localhost:4567/">Click to try another name</a></p>
 
 </body>
-
-<IMG STYLE="position:absolute; TOP:70px; LEFT:710px; WIDTH:100px; HEIGHT:100px" SRC="images//code_camp.jpg">
-
-<IMG STYLE="position:absolute; TOP:70px; LEFT:80px; WIDTH:18% " SRC="images//newriverlogo-regular.png">
